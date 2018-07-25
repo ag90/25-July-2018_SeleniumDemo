@@ -16,7 +16,7 @@ public class Asserts {
 	  System.setProperty("webdriver.chrome.driver", "C:\\Avi Gupta\\Automation\\Automation Software\\chromedriver_win32\\chromedriver.exe");
 	  driver=new ChromeDriver();
 	  driver.manage().window().maximize();
-	  driver.get("https://www.freecrm.com/register/");
+	  driver.get("HTTP://WWW.FREECRM.COM");
 	  
 /*	  driver.findElement(By.name("agreeTerms")).click();
 	  Thread.sleep(1000);
